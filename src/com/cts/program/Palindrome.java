@@ -6,7 +6,10 @@ public class Palindrome {
 	//avoid SOP statement here.
 	public boolean pal(int x)
 	{
+		//what is pal??   If the method return true/false , it should be isXXX  (isPolindrome, isEven, isEqual etc.,)
+		//what is y?
 		int y=0;
+		//what is verify?
 		int verify = x;
 		while(x!=0)	
 		{	
