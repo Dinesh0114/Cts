@@ -1,14 +1,16 @@
 package com.cts.program;
 
 public class CountNumber {
-	//this method should return int.
+	//this s should return int.
 	
-	public void count(String a )
+	public int count(String a )
 	{
 		int s;
 		s=a.length();
-		System.out.println(s);
+		return s;
+		
 	}
+
 	}
 	
 	

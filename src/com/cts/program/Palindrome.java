@@ -4,7 +4,7 @@ public class Palindrome {
 	
 	//should return true false
 	//avoid SOP statement here.
-	public void pal(int x)
+	public boolean pal(int x)
 	{
 		int y=0;
 		int verify = x;
@@ -16,12 +16,12 @@ public class Palindrome {
 		}
 		if(verify==y)
 		{
-			System.out.print("given number is an palindrome");
+			return true;
 		}
 		
 		else
 		{
-			System.out.print("given number is not an palindrome");
+			return false;
 		}
 	}
 
